@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "52173207184",
+    "firebase_url": "https://aulaandroid-fcm.firebaseio.com",
+    "project_id": "aulaandroid-fcm",
+    "storage_bucket": "aulaandroid-fcm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:52173207184:android:6b41c8966fad3833",
+        "android_client_info": {
+          "package_name": "com.example.elyervesson.aulaandroid_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "52173207184-o330gknjf3n9srsqbgvbv81fd1p8do78.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.elyervesson.aulaandroid_fcm",
+            "certificate_hash": "edd2a21d72e1d5b3d758e4573ab933f95c3b57ab"
+          }
+        },
+        {
+          "client_id": "52173207184-ebpprddh6ge6tldo3bauj6u1ainun6a1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUXS9qNE1QFNsZ_MEyFmt9wJtokTf6zzc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "52173207184-ebpprddh6ge6tldo3bauj6u1ainun6a1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
