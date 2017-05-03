@@ -1,5 +1,6 @@
 package com.example.elyervesson.aulaandroid_fcm;
 
+import android.content.Intent;
 import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
@@ -31,5 +32,11 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
 
         // Also if you intend on generating your own notifications as a result of a received FCM
         // message, here is where that should be initiated. See sendNotification method below.
+        notifyUser(remoteMessage.getFrom(), remoteMessage.getNotification().getBody());
+    }
+
+    public void notifyUser(String from, String notification) {
+        MyNotificationManager myNotificationManager = new MyNotificationManager(getApplicationContext());
+        myNotificationManager.showNotification(from, notification, new Intent(getApplicationContext(), MainActivity.class));
     }
 }
